@@ -2,8 +2,8 @@ import random
 n = random.randint(0,50)
 # Will generate random number from 0 to 50
 number_of_guesses=1
-print("NUmber of guesses is limited to 5 times: ")
-while (number_of_guesses<=5):
+print("NUmber of guesses is limited to 7 times: ")
+while (number_of_guesses<=7):
     i = int(input("Please enter your number:\n"))
     if i<n:
         print("increase your number\n")
